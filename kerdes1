@@ -1,0 +1,17 @@
+local panelNev = "jogsipanel"
+local panelS = (400,600)
+
+local kerdesValasszal = ()
+-
+-function jogsiPanelKlikk()
+-
+-end
+-addEventHandler("onClientClick",getRootElement(),jogsiPanelKlikk)
+-
+  function jogsiPanelRendor()
+    if not jogsiPanel then return end
+    jogsiPanel = exports("sg_rendszer"):panelRendorltetes(panelNew)
+    local ertekek = exports("sg_rendszer"):table_masolas(exports["sg_rendszer"]:getPanelInfok())
+    panelAdatok = (ertekek[5], ertekek[6], ertekek[7], ertekek [8]
+    if(ertekek[4] >= 1) then -- Ha végzett az animálással
+    
